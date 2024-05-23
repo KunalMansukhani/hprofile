@@ -13,6 +13,7 @@ jobs:
       - name: Checkstyle
         run: mvn checkstyle:checkstyle
 
+<<<<<<< HEAD:.github\workflows/main.yml
       # Setup java 11 to be default (sonar-scanner requirement as of 5.x)
       - name: Set Java 11
         uses: actions/setup-java@v3
@@ -38,3 +39,6 @@ jobs:
            -Dsonar.java.binaries=target/test-classes/com/visualpathit/account/controllerTest/
 
     
+=======
+      
+>>>>>>> refs/remotes/origin/main:.github/workflows/main.yml
